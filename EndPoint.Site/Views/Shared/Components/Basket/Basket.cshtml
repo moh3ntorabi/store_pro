@@ -1,0 +1,118 @@
+﻿@using Phoenix_Store.Application.Services.Carts;
+@model CartDto
+@{
+    ViewData["Title"] = "Basket";
+    Layout = null;
+}
+
+<div class="divider-space-card d-block">
+    <div class="header-cart-basket">
+        <a href="#" class="cart-basket-box">
+            <span class="icon-cart">
+                <i class="mdi mdi-cart"></i>
+            </span>
+            <span class="title-cart">سبد خرید</span>
+            <span class="price-cart">
+                @Model.SumAmount.ToString("n0")
+                <span>تومان</span>
+            </span>
+            <span class="count-cart">@Model.ProductCount</span>
+        </a>
+        <div class="widget-shopping-cart">
+            <div class="widget-shopping-cart-content">
+                <ul class="product-list-widget">
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <li class="mini-cart-item">
+                            <div class="mini-cart-item-content">
+                                <a onclick=DeleteCartItem(@item.Id) class="mini-cart-item-close">
+                                    <i class="fa fa-trash" ></i>
+                                </a>
+                                <a href="#" class="mini-cart-item-image d-block">
+                                    <img src="~/@item.Images">
+                                </a>
+                                <span class="product-name-card">@item.Product</span>
+
+                                <div class="quantity">
+                                    <span class="quantity-Price-amount">
+                                        @item.Price.ToString("n0")
+                                        <span>تومان</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+                <div class="mini-card-total">
+                    <strong>قیمت کل : </strong>
+                    <span class="price-total">
+                        @Model.SumAmount.ToString("n0")
+                        <span>تومان</span>
+                    </span>
+                </div>
+                <div class="mini-card-button">
+                    <a href="~/cart" class="view-card">مشاهده سبد خرید</a>
+                    <a href="~/pay" class="card-checkout">تسویه حساب</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <link href="~/Sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="~/Sweetalert2/sweetalert2.min.js"></script>
+    <script>
+
+        
+        function DeleteCartItem(ProductId) {
+            swal.fire({
+                title: 'حذف محصول',
+                text: "کاربر گرامی سفارش حذف شود؟",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#7cacbe',
+                confirmButtonText: 'بله',
+                cancelButtonText: 'خیر'
+            }).then((result) => {
+                if (result.value) {
+                    var postData = {
+                        'ProductId': ProductId,
+                    };
+
+                    $.ajax({
+                        contentType: 'application/x-www-form-urlencoded',
+                        dataType: 'json',
+                        type: "POST",
+                        url: "Cart/Remove",
+                        data: postData,
+                        success: function (data) {
+                            if (data.isSuccess == true) {
+                                swal.fire(
+                                    'موفق!',
+                                    data.message,
+                                    'success'
+                                ).then(function (isConfirm) {
+                                    location.reload();
+                                });
+                            }
+                            else {
+                                swal.fire(
+                                    'هشدار!',
+                                    data.message,
+                                    'warning'
+                                );
+                            }
+                        },
+                        error: function (request, status, error) {
+                            alert(request.responseText);
+                        }
+                    });
+                }
+            })
+        }
+
+    </script>
+}

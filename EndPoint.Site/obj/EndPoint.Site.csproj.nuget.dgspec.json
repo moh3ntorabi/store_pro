@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\EndPoint.Site\\EndPoint.Site.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\EndPoint.Site\\EndPoint.Site.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\EndPoint.Site\\EndPoint.Site.csproj",
+        "projectName": "EndPoint.Site",
+        "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\EndPoint.Site\\EndPoint.Site.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\EndPoint.Site\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj"
+              },
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj"
+              },
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\Phoenix_Store.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\Phoenix_Store.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "LazZiya.ExpressLocalization": {
+              "target": "Package",
+              "version": "[5.0.0-beta2, )"
+            },
+            "LazZiya.TagHelpers": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Zarinpal": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj",
+        "projectName": "Phoenix_Store.Application",
+        "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj"
+              },
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj",
+        "projectName": "Phoenix_Store.Common",
+        "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\Phoenix_Store.Common.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj",
+        "projectName": "Phoenix_Store.Domain",
+        "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\Phoenix_Store.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\Phoenix_Store.Persistence.csproj",
+        "projectName": "Phoenix_Store.Persistence",
+        "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\Phoenix_Store.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Application\\Phoenix_Store.Application.csproj"
+              },
+              "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\source\\Phoenix_Store\\Phoenix_Store.Domain\\Phoenix_Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\bin\Debug\netcoreapp3.1\Phoenix_Store.Domain.deps.json
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\bin\Debug\netcoreapp3.1\Phoenix_Store.Domain.dll
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\bin\Debug\netcoreapp3.1\Phoenix_Store.Domain.pdb
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.csprojAssemblyReference.cache
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.AssemblyInfoInputs.cache
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.AssemblyInfo.cs
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.csproj.CoreCompileInputs.cache
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.dll
+C:\Users\moh3n\ASP\Phoenix_Store\Phoenix_Store.Domain\obj\Debug\netcoreapp3.1\Phoenix_Store.Domain.pdb

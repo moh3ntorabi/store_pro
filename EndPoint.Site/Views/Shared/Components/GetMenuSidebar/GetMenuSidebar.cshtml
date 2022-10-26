@@ -1,0 +1,33 @@
+﻿@using Phoenix_Store.Application.Services.Common.Queries.GetMenuItem
+@model List<MenuItemDto>
+@{
+    Layout = null;
+}
+
+
+    <ul class="nav-categories ul-base">
+        <li>
+            @foreach (var item in Model)
+            {
+                <a href="#" class="collapsed" type="button" data-toggle="collapse" data-target="#@item.CatId" aria-expanded="false" aria-controls="collapseOne"><i class="mdi mdi-chevron-down"></i> @item.Name</a>
+
+                <div id="@item.CatId" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample" style="">
+                    <ul>
+                        @if (item.Child.Count() > 0)
+                        {
+
+
+                            @foreach (var itemChild in item.Child)
+                            {
+                                <li>
+                                    <a href="~/product/index?CatId=" class="category-level-2">@itemChild.Name</a>
+                                </li>
+                            }
+                        }
+
+                    </ul>
+                </div>
+            }
+
+        </li>
+    </ul>

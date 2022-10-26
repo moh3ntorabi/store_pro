@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <History>True|2022-05-06T20:16:12.0424022Z;True|2022-05-05T17:41:50.7721322+04:30;True|2022-05-05T16:34:20.4498703+04:30;True|2022-05-04T22:05:12.6740892+04:30;True|2022-05-04T21:03:31.1737155+04:30;True|2022-05-04T20:59:13.9391174+04:30;True|2022-05-04T20:36:42.3616820+04:30;True|2022-05-03T10:13:57.5103072+04:30;True|2022-05-02T01:27:34.2519034+04:30;True|2022-05-02T00:51:26.8698329+04:30;True|2022-05-01T02:11:27.9209840+04:30;True|2022-05-01T01:13:42.9805925+04:30;True|2022-05-01T01:13:01.3264257+04:30;True|2022-05-01T01:07:37.3584791+04:30;False|2022-04-30T01:56:01.2216907+04:30;</History>
+    <_PublishTargetUrl>C:\Users\Phoenix\source\Phoenix_Store\EndPoint.Site\bin\Release\net5.0\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
